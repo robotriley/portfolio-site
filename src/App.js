@@ -53,6 +53,9 @@ function App() {
           </Button>
         </Nav>
       </Navbar>
+      <h3>
+        Riley Soloner's Portfolio
+      </h3>
     </div>
   );
 }
