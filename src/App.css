@@ -16,3 +16,16 @@
 .App-link {
   color: #61dafb;
 }
+
+#navbar {
+  background-color:darkkhaki;
+  padding-right: 20px;
+}
+
+#iconZone {
+  padding: 10px;
+}
+
+.navIcon {
+  color: black;
+}
