@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 import './App.css';
 import { Navbar, Nav, Button} from 'rsuite'
 import HomeIcon from '@rsuite/icons/legacy/Home';
@@ -9,15 +9,30 @@ const Title = () => {
   });
 }
 
-function App() {
+const App = () => {
+  const titleRef = useRef()
+  const projectsRef = useRef()
+  const techRef = useRef()
+
+  const handleTitleClick = () => {
+    titleRef.current.scrollIntoView({ behavior: 'smooth' })
+  }
+  const handleProjectsClick = () => {
+    projectsRef.current.scrollIntoView({ behavior: 'smooth' })
+  }
+  const handleTechClick = () => {
+    techRef.current.scrollIntoView({ behavior: 'smooth' })
+  }
+
   Title()
+
   return (
     <div className="App">
-      <Navbar id="navbar">
-        <Navbar.Brand href='#'>Riley Soloner</Navbar.Brand>
+      <Navbar appearance='subtle' id="navbar">
+        <Navbar.Brand onClick={ handleTitleClick } href='#'>Riley Soloner</Navbar.Brand>
         <Nav>
-          <Nav.Item icon={ <HomeIcon /> }>Projects</Nav.Item>
-          <Nav.Item>Technologies</Nav.Item>
+          <Nav.Item ref={projectsRef} onClick={ handleProjectsClick } icon={ <HomeIcon /> }>Projects</Nav.Item>
+          <Nav.Item ref={techRef} onClick={ handleTechClick }>Technologies</Nav.Item>
           <Nav.Item>About</Nav.Item>
           <Nav.Item>Contact</Nav.Item>
         </Nav>
@@ -56,7 +71,7 @@ function App() {
         Projects
       </h3>
       </div>
-      <div id='technologiesContent'>
+      <div ref={titleRef} id='technologiesContent'>
         <h3>Technologies</h3>
       </div>
     </div>
