@@ -30,10 +30,16 @@
   color: black;
 }
 
+#welcomeContent {
+  height: 100vh;
+  background-color: lightsteelblue;
+}
+
 #projectsContent {
   height: 100vh;
   background-color: lightgreen;
 }
+
 #technologiesContent {
   height: 100vh;
   background-color: lightcyan;
