@@ -20,6 +20,8 @@
 #navbar {
   background-color:darkkhaki;
   padding-right: 20px;
+  /* opacity: 90%; */
+  /* position:static; */
 }
 
 #iconZone {
@@ -28,4 +30,13 @@
 
 .navIcon {
   color: black;
+}
+
+#projectsContent {
+  height: 100vh;
+  background-color: goldenrod;
+}
+#technologiesContent {
+  height: 100vh;
+  background-color: lightcyan;
 }

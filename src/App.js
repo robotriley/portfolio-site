@@ -3,16 +3,14 @@ import './App.css';
 import { Navbar, Nav, Button} from 'rsuite'
 import HomeIcon from '@rsuite/icons/legacy/Home';
 
-const Example = () => {
+const Title = () => {
   useEffect(() => {
     document.title = 'Riley Soloner';
   });
 }
 
-
-
 function App() {
-  Example()
+  Title()
   return (
     <div className="App">
       <Navbar id="navbar">
@@ -53,9 +51,14 @@ function App() {
           </Button>
         </Nav>
       </Navbar>
+      <div id='projectsContent'>
       <h3>
-        Riley Soloner's Portfolio
+        Projects
       </h3>
+      </div>
+      <div id='technologiesContent'>
+        <h3>Technologies</h3>
+      </div>
     </div>
   );
 }
