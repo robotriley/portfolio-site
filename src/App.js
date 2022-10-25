@@ -13,6 +13,8 @@ const App = () => {
   const titleRef = useRef()
   const projectsRef = useRef()
   const techRef = useRef()
+  const aboutRef = useRef()
+  const contactRef = useRef()
 
   const handleTitleClick = () => {
     titleRef.current.scrollIntoView({ behavior: 'smooth' })
@@ -23,18 +25,24 @@ const App = () => {
   const handleTechClick = () => {
     techRef.current.scrollIntoView({ behavior: 'smooth' })
   }
+  const handleAboutClick = () => {
+    aboutRef.current.scrollIntoView({ behavior: 'smooth' })
+  }
+  const handleContactClick = () => {
+    contactRef.current.scrollIntoView({ behavior: 'smooth' })
+  }
 
   Title()
 
   return (
     <div className="App">
       <Navbar appearance='subtle' id="navbar">
-        <Navbar.Brand onClick={ handleTitleClick } href='#'>Riley Soloner</Navbar.Brand>
+        <Navbar.Brand onClick={ handleProjectsClick } >Riley Soloner</Navbar.Brand>
         <Nav>
-          <Nav.Item ref={projectsRef} onClick={ handleProjectsClick } icon={ <HomeIcon /> }>Projects</Nav.Item>
-          <Nav.Item ref={techRef} onClick={ handleTechClick }>Technologies</Nav.Item>
-          <Nav.Item>About</Nav.Item>
-          <Nav.Item>Contact</Nav.Item>
+          <Nav.Item onClick={ handleProjectsClick } icon={ <HomeIcon /> }>Projects</Nav.Item>
+          <Nav.Item onClick={ handleTechClick }>Technologies</Nav.Item>
+          <Nav.Item onClick={ handleAboutClick } >About</Nav.Item>
+          <Nav.Item onClick={ handleContactClick} >Contact</Nav.Item>
         </Nav>
         <Nav pullRight id="iconZone">
           <Button className='navIcon'
@@ -66,13 +74,19 @@ const App = () => {
           </Button>
         </Nav>
       </Navbar>
-      <div id='projectsContent'>
+      <div id='projectsContent' ref={projectsRef}>
       <h3>
         Projects
       </h3>
       </div>
-      <div ref={titleRef} id='technologiesContent'>
+      <div ref={techRef} id='technologiesContent'>
         <h3>Technologies</h3>
+      </div>
+      <div ref={aboutRef} id='aboutContent'>
+        <h3>About</h3>
+      </div>
+      <div ref={contactRef} id='contactContent'>
+        <h3>Contact</h3>
       </div>
     </div>
   );
