@@ -15,30 +15,30 @@ const NavbarComponent = ({handleWelcomeClick, handleProjectsClick, handleTechCli
         </Nav>
         <Nav pullRight id="iconZone">
           <Button className='navIcon'
-            appearance="link"
-            href="https://github.com/robotriley/"
-            target='blank' >
+                  appearance="link"
+                  href="https://github.com/robotriley/"
+                  target='blank' >
             <ion-icon className="ionIcon"
-              name="logo-github"
-              size="large">
+                      name="logo-github"
+                      size="large">
             </ion-icon>
           </Button>
           <Button className='navIcon'
-            appearance="link"
-            href="https://www.linkedin.com/in/riley-soloner/"
-            target='blank' >
+                  appearance="link"
+                  href="https://www.linkedin.com/in/riley-soloner/"
+                  target='blank' >
             <ion-icon className="ionIcon"
-              name="logo-linkedin"
-              size="large">
+                      name="logo-linkedin"
+                      size="large">
             </ion-icon>
           </Button>
           <Button className='navIcon'
-            appearance="link"
-            href="https://www.medium.com/@rileysoloner/"
-            target='blank'>
+                  appearance="link"
+                  href="https://www.medium.com/@rileysoloner/"
+                  target='blank'>
             <ion-icon className="ionIcon"
-              name="logo-medium"
-              size="large">
+                      name="logo-medium"
+                      size="large">
             </ion-icon>
           </Button>
         </Nav>
