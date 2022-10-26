@@ -26,7 +26,7 @@
 }
 
 .navIcon {
-  color: black;
+  color: #282c34;
 }
 
 #welcomeContent {
@@ -54,8 +54,12 @@
   background-color: lightseagreen;
 }
 
-h3 {
+.sectionHeader {
   padding-top: 60px;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 50px;
+  font-size: 10vh;
 }
 
 .rs-placeholder-paragraph-graph-image {

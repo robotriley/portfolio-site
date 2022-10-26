@@ -43,25 +43,25 @@ const App = () => {
                        handleContactClick={handleContactClick}
        />
       <div id='welcomeContent' ref={welcomeRef}>
-        <h3>
-          Welcome to my Portfolio site
-        </h3>
+        <h1 className='sectionHeader'>
+          Welcome to my Portfolio!
+        </h1>
         <Placeholder.Paragraph style={{ marginTop: 30 }} rows={5} graph="image" active />
       </div>
       <div id='projectsContent' ref={projectsRef}>
-      <h3>Projects</h3>
+        <h1 className='sectionHeader'>Projects</h1>
         <Placeholder.Paragraph style={{ marginTop: 30 }} rows={5} graph="image" active />
       </div>
       <div ref={techRef} id='technologiesContent'>
-        <h3>Technologies</h3>
+        <h1 className='sectionHeader'>Technologies</h1>
         <Placeholder.Paragraph style={{ marginTop: 30 }} rows={5} graph="image" active />
       </div>
       <div ref={aboutRef} id='aboutContent'>
-        <h3>About</h3>
+        <h1 className='sectionHeader'>About</h1>
         <Placeholder.Paragraph style={{ marginTop: 30 }} rows={5} graph="image" active />
       </div>
       <div ref={contactRef} id='contactContent'>
-        <h3>Contact</h3>
+        <h1 className='sectionHeader'>Contact</h1>
         <Placeholder.Paragraph style={{ marginTop: 30 }} rows={5} graph="image" active />
       </div>
     </div>
