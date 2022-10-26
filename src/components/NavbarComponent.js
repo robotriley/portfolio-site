@@ -6,6 +6,7 @@ const NavbarComponent = ({handleWelcomeClick, handleProjectsClick, handleTechCli
   return (
     <div>
       <Navbar appearance='subtle' id="navbar">
+        <div id='navContent'>
         <Navbar.Brand onClick={handleWelcomeClick} >Riley Soloner</Navbar.Brand>
         <Nav>
           <Nav.Item onClick={handleProjectsClick}>Projects</Nav.Item>
@@ -13,6 +14,7 @@ const NavbarComponent = ({handleWelcomeClick, handleProjectsClick, handleTechCli
           <Nav.Item onClick={handleAboutClick} >About</Nav.Item>
           <Nav.Item onClick={handleContactClick} >Contact</Nav.Item>
         </Nav>
+        </div>
         <Nav pullRight id="iconZone">
           <Button className='navIcon'
                   appearance="link"

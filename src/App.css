@@ -16,18 +16,36 @@
 .App-link {
   color: #61dafb;
 }
+/* ***** NAVBAR ***** */
 
 #navbar {
-  background-color:lightgoldenrodyellow;
+  /* background-color:lightgoldenrodyellow; */
   opacity: 80%;
   position: fixed;
   width: 100%;
   z-index: 1;
 }
 
+#navContent {
+  margin-left: 50px;
+  font-size: 135%;
+  color: blanchedalmond;
+}
+
 .navIcon {
   color: #282c34;
 }
+
+.rs-navbar-brand {
+  /* font-size: 155%; */
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin-right: 50px;
+}
+
+/* ***** SECTION DIVS ***** */
 
 #welcomeContent {
   height: 100vh;
@@ -36,22 +54,22 @@
 
 #projectsContent {
   height: 100vh;
-  background-color: lightgreen;
+  background-color: slateblue;
 }
 
 #technologiesContent {
   height: 100vh;
-  background-color: lightcyan;
+  background-color: lightsteelblue;
 }
 
 #aboutContent {
   height: 100vh;
-  background-color: antiquewhite;
+  background-color: slateblue;
 }
 
 #contactContent {
   height: 100vh;
-  background-color: lightseagreen;
+  background-color: lightsteelblue;
 }
 
 .sectionHeader {
@@ -60,6 +78,7 @@
   align-items: flex-start;
   margin-left: 50px;
   font-size: 10vh;
+  color: blanchedalmond;
 }
 
 .rs-placeholder-paragraph-graph-image {
