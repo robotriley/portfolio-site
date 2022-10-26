@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import './App.css';
 import { Navbar, Nav, Button} from 'rsuite'
-// import HomeIcon from '@rsuite/icons/legacy/Home';
+import NavbarComponent from './components/NavbarComponent.js';
 
 const Title = () => {
   useEffect(() => {
@@ -11,7 +11,6 @@ const Title = () => {
 
 const App = () => {
   const welcomeRef = useRef()
-  const titleRef = useRef()
   const projectsRef = useRef()
   const techRef = useRef()
   const aboutRef = useRef()
@@ -37,7 +36,13 @@ const App = () => {
 
   return (
     <div className="App">
-      <Navbar appearance='subtle' id="navbar">
+      <NavbarComponent handleWelcomeClick={handleWelcomeClick}
+              handleProjectsClick={handleProjectsClick}
+              handleTechClick={handleTechClick}
+              handleAboutClick={handleAboutClick}
+              handleContactClick={handleContactClick}
+       />
+      {/* <Navbar appearance='subtle' id="navbar">
         <Navbar.Brand onClick={ handleWelcomeClick } >Riley Soloner</Navbar.Brand>
         <Nav>
           <Nav.Item onClick={ handleProjectsClick }>Projects</Nav.Item>
@@ -74,7 +79,7 @@ const App = () => {
             </ion-icon>
           </Button>
         </Nav>
-      </Navbar>
+      </Navbar> */}
       <div id='welcomeContent' ref={welcomeRef}>
         <h3>
           Welcome to my Portfolio site
