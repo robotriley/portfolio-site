@@ -29,11 +29,15 @@
 #navContent {
   margin-left: 50px;
   font-size: 135%;
-  color: blanchedalmond;
+  color: #282c34;
 }
 
 .navIcon {
   color: #282c34;
+}
+
+#iconZone {
+  /* margin-right: 50px; */
 }
 
 .rs-navbar-brand {
