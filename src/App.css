@@ -78,16 +78,16 @@
 }
 
 .sectionHeader {
-  margin-top: 150px;
-  display: flex;
   align-items: flex-start;
-  margin-left: 200px;
-  font-size: 10vh;
+  /* border: solid red; */
   color: lightgoldenrodyellow;
-  border: solid red;
+  display: flex;
+  font-size: 10vh;
+  line-height: 110px;
+  margin-left: 200px;
+  margin-top: 150px;
   max-width: 35%;
   text-align: left;
-  line-height: 110px;
 }
 
 .rs-placeholder-paragraph-graph-image {
@@ -105,7 +105,7 @@
 }
 
 .para {
-  margin-left: 50px;
+  margin-left: 200px;
   margin-top: 30px;
   /* border: solid red; */
   font-family: 'Courier New', Courier, monospace;
