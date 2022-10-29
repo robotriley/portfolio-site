@@ -78,14 +78,40 @@
 }
 
 .sectionHeader {
-  padding-top: 60px;
+  margin-top: 150px;
   display: flex;
   align-items: flex-start;
-  margin-left: 50px;
+  margin-left: 200px;
   font-size: 10vh;
   color: lightgoldenrodyellow;
+  border: solid red;
+  max-width: 35%;
+  text-align: left;
+  line-height: 110px;
 }
 
 .rs-placeholder-paragraph-graph-image {
   margin-left: 50px;
+}
+
+/* CONTENT LIT */
+
+.contentLit {
+  /* border: solid yellow; */
+  padding-bottom: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.para {
+  margin-left: 50px;
+  margin-top: 30px;
+  /* border: solid red; */
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  font-size: 1.8em;
+  text-align: left;
+  max-width: 50%;
+
 }

@@ -43,26 +43,36 @@ const App = () => {
                        handleContactClick={handleContactClick}
        />
       <div id='welcomeContent' ref={welcomeRef}>
-        <h1 className='sectionHeader'>
-          Welcome to my Portfolio!
-        </h1>
-        <Placeholder.Paragraph style={{ marginTop: 30 }} rows={5} graph="image" active />
+        <div className='contentLit'>
+          <h1 className='sectionHeader'>
+           Welcome To My Portfolio!
+          </h1>
+        <p className='para'>Extremely skilled and charismatic performer with a certificate from a coding bootcamp. I'm a full stack developer interested in using technology as a tool for creativity. </p>
+        </div>
       </div>
       <div id='projectsContent' ref={projectsRef}>
+        <div className='contentLit'>
         <h1 className='sectionHeader'>Projects</h1>
         <Placeholder.Paragraph style={{ marginTop: 30 }} rows={5} graph="image" active />
+        </div>
       </div>
       <div ref={techRef} id='technologiesContent'>
+        <div className='contentLit'>
         <h1 className='sectionHeader'>Technologies</h1>
         <Placeholder.Paragraph style={{ marginTop: 30 }} rows={5} graph="image" active />
+        </div>
       </div>
       <div ref={aboutRef} id='aboutContent'>
+        <div className='contentLit'>
         <h1 className='sectionHeader'>About</h1>
         <Placeholder.Paragraph style={{ marginTop: 30 }} rows={5} graph="image" active />
+        </div>
       </div>
       <div ref={contactRef} id='contactContent'>
+        <div className='contentLit'>
         <h1 className='sectionHeader'>Contact</h1>
         <Placeholder.Paragraph style={{ marginTop: 30 }} rows={5} graph="image" active />
+        </div>
       </div>
     </div>
   );
