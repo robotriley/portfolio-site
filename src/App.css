@@ -79,7 +79,7 @@
 
 .sectionHeader {
   align-items: flex-start;
-  border: solid red;
+  /* border: solid red; */
   color: lightgoldenrodyellow;
   display: flex;
   font-size: 10vh;
