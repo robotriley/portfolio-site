@@ -53,7 +53,7 @@ const App = () => {
       <div id='projectsContent' ref={projectsRef}>
         <div className='contentLit'>
         <h1 className='sectionHeader'>Projects</h1>
-        <Placeholder.Paragraph style={{ marginTop: 30 }} rows={5} graph="image" active />
+          <p className='para'>Here are some things I built:</p>
         </div>
       </div>
       <div ref={techRef} id='technologiesContent'>
