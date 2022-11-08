@@ -115,3 +115,19 @@
   max-width: 50%;
 
 }
+#projContainer {
+  /* border: solid yellow; */
+
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+#projDiv {
+  border: solid white;
+  border-radius: 10px;
+  height: 300px;
+  width: 300px;
+  margin-left: 200px;
+  flex-direction: row;
+}

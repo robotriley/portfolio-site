@@ -54,6 +54,11 @@ const App = () => {
         <div className='contentLit'>
         <h1 className='sectionHeader'>Projects</h1>
           <p className='para'>Here are some things I built:</p>
+          <div id="projContainer">
+          <div id="projDiv"> </div>
+          <div id="projDiv"> </div>
+          <div id="projDiv"> </div>
+          </div>
         </div>
       </div>
       <div ref={techRef} id='technologiesContent'>
