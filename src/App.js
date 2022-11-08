@@ -70,7 +70,7 @@ const App = () => {
       <div ref={aboutRef} id='aboutContent'>
         <div className='contentLit'>
         <h1 className='sectionHeader'>About</h1>
-        <Placeholder.Paragraph style={{ marginTop: 30 }} rows={5} graph="image" active />
+          <p className='para'>I’ve been in acting, writing and producing live and televised comedy for ten years. I’m excited to combine my communication/writing skills with software engineering to help creative people make more and better art.</p>
         </div>
       </div>
       <div ref={contactRef} id='contactContent'>
