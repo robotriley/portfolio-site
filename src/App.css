@@ -108,6 +108,7 @@
   margin-left: 200px;
   margin-top: 30px;
   /* border: solid red; */
+  color: black;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bolder;
   font-size: 1.8em;
@@ -117,10 +118,11 @@
 }
 #projContainer {
   /* border: solid yellow; */
-
   display: flex;
   flex-direction: row;
   align-items: baseline;
+  align-items: center;
+  justify-content: space-around;
 }
 
 #projDiv {
