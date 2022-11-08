@@ -25,6 +25,7 @@
   width: 100%;
   z-index: 1;
   backdrop-filter: blur(5px);
+  border-bottom: 1px solid whitesmoke;
 }
 
 #navContent {
