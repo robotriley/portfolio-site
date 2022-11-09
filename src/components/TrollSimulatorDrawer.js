@@ -2,7 +2,7 @@ import {useState} from 'react';
 import '../App.css';
 import { Drawer, Button, ButtonToolbar, ButtonGroup} from 'rsuite'
 
-const AboutDrawer = () => {
+const TrollSimulatorDrawer = () => {
   const [open, setOpen] = useState(false);
   const [placement, setPlacement] = useState();
 
@@ -19,14 +19,14 @@ const AboutDrawer = () => {
         size={'full'}
         onClose={() => setOpen(false)}>
         <Drawer.Header id="aboutHeader" >
-          <h2>Story Outliner</h2>
+          <h2>Troll Simulator</h2>
           {/* <Button appearance="ghost" color="yellow">show me an example</Button> */}
         </Drawer.Header>
         <Drawer.Body>
           <div>
 
             <div className='drawerWords1'>
-              <h4>Yo here's where some info about story outliner will go.</h4>
+              <h4>Baahhh troll story.</h4>
             </div>
             <div className='credits'>
               {/* <h6>Built by: Riley Soloner</h6> */}
@@ -62,4 +62,4 @@ const AboutDrawer = () => {
   )
 }
 
-export default AboutDrawer ; 
+export default TrollSimulatorDrawer ; 
