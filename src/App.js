@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import './App.css';
-import { Placeholder, Carousel } from 'rsuite'
+import { Placeholder } from 'rsuite'
 import NavbarComponent from './components/NavbarComponent.js';
 import CarouselComponent from './components/CarouselComponent';
 
