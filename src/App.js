@@ -53,8 +53,8 @@ const App = () => {
       <div id='projectsContent' ref={projectsRef}>
         <div className='contentLit'>
         <h1 className='sectionHeader'>Projects</h1>
-          <p className='para'>Here are some things I built:</p>
-          <Carousel className="custom-slider">
+          {/* <p className='para'>Here are some things I built:</p> */}
+          <Carousel autoplay className="custom-slider">
             <h1>This is where STORY OUTLINER is gonna go</h1>
             <h1>This one is for Review Haikus</h1>
             <h1>This one is for TROLL SIMULATOR</h1>

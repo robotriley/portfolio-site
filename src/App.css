@@ -138,6 +138,7 @@
 .custom-slider {
   width: 50%;
   align-self: center;
+  border-radius: 10px;
 }
 .custom-slider h1 {
   color: green;
