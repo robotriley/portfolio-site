@@ -1,6 +1,6 @@
 import {useState} from 'react';
 import '../App.css';
-import { Drawer, Button, ButtonToolbar, ButtonGroup} from 'rsuite'
+import { Drawer, Button} from 'rsuite'
 
 const ReviewHaikuDrawer = () => {
   const [open, setOpen] = useState(false);
@@ -16,7 +16,7 @@ const ReviewHaikuDrawer = () => {
         placement={placement}
         open={open}
         keyboard={true}
-        size={'full'}
+        size={'md'}
         onClose={() => setOpen(false)}>
         <Drawer.Header id="aboutHeader" >
           <h2>Review Haiku</h2>
@@ -32,24 +32,17 @@ const ReviewHaikuDrawer = () => {
             </div>
             <div className='credits'>
               {/* <h6>Built by: Riley Soloner</h6> */}
-              <ButtonToolbar>
-                <ButtonGroup>
+              {/* <ButtonToolbar>
+                <ButtonGroup> */}
                   <Button color="cyan"
                     appearance='ghost'
                     target="_blank"
-                    href="https://www.linkedin.com/in/riley-soloner/">
-                    {/* <LinkedinIcon /> */}
-                    Riley Soloner
-                  </Button>
-                  <Button color="cyan"
-                    appearance='ghost'
-                    target="_blank"
-                    href="https://github.com/robotriley/story-outliner">
+                href="https://github.com/robotriley/review-haiku-backend">
                     <ion-icon name="logo-github"></ion-icon>
                     Github
                   </Button>
-                </ButtonGroup>
-              </ButtonToolbar>
+                {/* </ButtonGroup>
+              </ButtonToolbar> */}
             </div>
           </div>
         </Drawer.Body>
@@ -59,7 +52,7 @@ const ReviewHaikuDrawer = () => {
         appearance="link"
         size='sm'
         color="red"
-        onClick={() => handleOpen('top')}>About</Button>
+        onClick={() => handleOpen('bottom')}>About</Button>
     </div>
   )
 }

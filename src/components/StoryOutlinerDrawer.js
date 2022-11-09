@@ -1,6 +1,6 @@
 import {useState} from 'react';
 import '../App.css';
-import { Drawer, Button, ButtonToolbar, ButtonGroup} from 'rsuite'
+import { Drawer, Button} from 'rsuite'
 
 const StoryOutlinerDrawer = () => {
   const [open, setOpen] = useState(false);
@@ -16,29 +16,17 @@ const StoryOutlinerDrawer = () => {
         placement={placement}
         open={open}
         keyboard={true}
-        size={'full'}
+        size={'md'}
         onClose={() => setOpen(false)}>
         <Drawer.Header id="aboutHeader" >
           <h2>Story Outliner</h2>
-          {/* <Button appearance="ghost" color="yellow">show me an example</Button> */}
         </Drawer.Header>
         <Drawer.Body>
           <div>
-
             <div className='drawerWords1'>
               <h4>Yo here's where some info about story outliner will go.</h4>
             </div>
             <div className='credits'>
-              {/* <h6>Built by: Riley Soloner</h6> */}
-              <ButtonToolbar>
-                <ButtonGroup>
-                  <Button color="cyan"
-                    appearance='ghost'
-                    target="_blank"
-                    href="https://www.linkedin.com/in/riley-soloner/">
-                    {/* <LinkedinIcon /> */}
-                    Riley Soloner
-                  </Button>
                   <Button color="cyan"
                     appearance='ghost'
                     target="_blank"
@@ -46,18 +34,15 @@ const StoryOutlinerDrawer = () => {
                     <ion-icon name="logo-github"></ion-icon>
                     Github
                   </Button>
-                </ButtonGroup>
-              </ButtonToolbar>
             </div>
           </div>
         </Drawer.Body>
       </Drawer>
-
       <Button
         appearance="link"
         size='sm'
         color="red"
-        onClick={() => handleOpen('top')}>About</Button>
+        onClick={() => handleOpen('bottom')}>About</Button>
     </div>
   )
 }
