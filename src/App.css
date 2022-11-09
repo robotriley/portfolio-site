@@ -139,3 +139,6 @@
   width: 50%;
   align-self: center;
 }
+.custom-slider h1 {
+  color: green;
+}
