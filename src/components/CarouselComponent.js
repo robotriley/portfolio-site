@@ -9,9 +9,9 @@ const CarouselComponent = () => {
   return (
     <div>
       <Carousel className="custom-slider">
+        <h1>STORY OUTLINER <StoryOutlinerDrawer /></h1>
         <h1>REVIEW HAIKUS <ReviewHaikuDrawer /></h1>
         <h1>TROLL SIMULATOR <TrollSimulatorDrawer /></h1>
-        <h1>STORY OUTLINER <StoryOutlinerDrawer /></h1>
       </Carousel>
     </div>
   )
