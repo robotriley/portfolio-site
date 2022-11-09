@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import './App.css';
 import { Placeholder, Carousel } from 'rsuite'
 import NavbarComponent from './components/NavbarComponent.js';
+import CarouselComponent from './components/CarouselComponent';
 
 const Title = () => {
   useEffect(() => {
@@ -54,11 +55,7 @@ const App = () => {
         <div className='contentLit'>
         <h1 className='sectionHeader'>Projects</h1>
           {/* <p className='para'>Here are some things I built:</p> */}
-          <Carousel autoplay className="custom-slider">
-            <h1>This is where STORY OUTLINER is gonna go</h1>
-            <h1>This one is for Review Haikus</h1>
-            <h1>This one is for TROLL SIMULATOR</h1>
-          </Carousel>
+         <CarouselComponent />
         </div>
       </div>
       <div ref={techRef} id='technologiesContent'>
