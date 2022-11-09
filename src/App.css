@@ -134,3 +134,8 @@
   justify-content: space-evenly;
   
 }
+
+.custom-slider {
+  width: 50%;
+  align-self: center;
+}
