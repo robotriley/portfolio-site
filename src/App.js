@@ -54,8 +54,9 @@ const App = () => {
       <div id='projectsContent' ref={projectsRef}>
         <div className='contentLit'>
         <h1 className='sectionHeader'>Projects</h1>
-          {/* <p className='para'>Here are some things I built:</p> */}
+        <div id='caroDiv'>
          <CarouselComponent />
+          </div>
         </div>
       </div>
       <div ref={techRef} id='technologiesContent'>
