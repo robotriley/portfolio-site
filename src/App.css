@@ -155,6 +155,14 @@
   /* border: solid red; */
 }
 
+.carouselSlide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: solid 1px blanchedalmond; */
+  border-radius: 100px 100px 20px 20px;
+}
+
 .rs-carousel-slider-item {
   background-color: lightskyblue;
 }
