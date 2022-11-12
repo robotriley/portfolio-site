@@ -183,6 +183,6 @@
   align-items: flex-start;
   justify-content: flex-start;
   margin-right: 80%;
-  border: solid red;
+  /* border: solid red; */
   color: lightslategray
 }
