@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import './App.css';
-import { Placeholder } from 'rsuite'
+import { Placeholder, Grid, Row, Col } from 'rsuite'
 import NavbarComponent from './components/NavbarComponent.js';
 import CarouselComponent from './components/CarouselComponent';
 
@@ -62,7 +62,24 @@ const App = () => {
       <div ref={techRef} id='technologiesContent'>
         <div className='contentLit'>
         <h1 className='sectionHeader'>Technologies</h1>
-        <Placeholder.Paragraph style={{ marginTop: 30 }} rows={5} graph="image" active />
+          <div className="show-grid">
+            <Grid fluid>
+              <Row className="show-grid">
+                <Col xs={2}>xs={2}</Col>
+                <Col xs={2}>xs={2}</Col>
+                <Col xs={2}>xs={2}</Col>
+                <Col xs={2}>xs={2}</Col>
+                <Col xs={2}>xs={2}</Col>
+                <Col xs={2}>xs={2}</Col>
+                <Col xs={2}>xs={2}</Col>
+                <Col xs={2}>xs={2}</Col>
+                <Col xs={2}>xs={2}</Col>
+                <Col xs={2}>xs={2}</Col>
+                <Col xs={2}>xs={2}</Col>
+                <Col xs={2}>xs={2}</Col>
+              </Row>
+              </Grid>
+          </div>
         </div>
       </div>
       <div ref={aboutRef} id='aboutContent'>
