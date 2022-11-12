@@ -174,3 +174,15 @@
   background-color: blanchedalmond;
   border-radius: 10px;
 }
+
+.techCategory {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+  font-weight: 700;
+  align-content:flex-start;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-right: 80%;
+  border: solid red;
+  color: lightslategray
+}

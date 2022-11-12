@@ -64,17 +64,29 @@ const App = () => {
         <h1 className='sectionHeader'>Technologies</h1>
         <p className='para'>I've worked with...</p>
           <div className="show-grid">
+        <p className='techCategory'>Front-End</p>
             <Grid fluid>
               <Row gutter={16} className="show-grid">
                 <Col sm={4}>JavaScript</Col>
                 <Col xs={4}>React</Col>
-                <Col xs={4}>HTML/CSS</Col>
-                <Col xs={4}>Ruby on Rails</Col>
-                <Col xs={4}>PostGreSQL</Col>
+                <Col xs={4}>HTML</Col>
+                <Col xs={4}>CSS</Col>
+                </Row>
+              <p className='techCategory'>Back-End</p>
+              <Row gutter={16} className="show-grid">
+                <Col xs={6}>Ruby on Rails</Col>
+                <Col xs={6}>SQL/PostGreSQL</Col>
+                </Row>
+              <p className='techCategory'>Platforms</p>
+              <Row gutter={16} className="show-grid">
                 <Col xs={4}>Git / Github</Col>
-                <Col xs={4}>RESTful APIs</Col>
-                <Col xs={4}>Object-Oriented Programming</Col>
+                <Col xs={6}>RESTful APIs</Col>
+                <Col xs={6}>Object-Oriented Programming</Col>
                 <Col xs={4}>Version Control</Col>
+              </Row>
+                <p className='techCategory'>Styles</p>
+              <Row gutter={16} className="show-grid">
+                <Col xs={4}>ReactSuite</Col>
               </Row>
               </Grid>
           </div>
