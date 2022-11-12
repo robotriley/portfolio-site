@@ -65,18 +65,18 @@ const App = () => {
           <div className="show-grid">
             <Grid fluid>
               <Row className="show-grid">
-                <Col xs={2}>xs={2}</Col>
-                <Col xs={2}>xs={2}</Col>
-                <Col xs={2}>xs={2}</Col>
-                <Col xs={2}>xs={2}</Col>
-                <Col xs={2}>xs={2}</Col>
-                <Col xs={2}>xs={2}</Col>
-                <Col xs={2}>xs={2}</Col>
-                <Col xs={2}>xs={2}</Col>
-                <Col xs={2}>xs={2}</Col>
-                <Col xs={2}>xs={2}</Col>
-                <Col xs={2}>xs={2}</Col>
-                <Col xs={2}>xs={2}</Col>
+                <Col xs={8}>xs={2}</Col>
+                <Col xs={8}>xs={2}</Col>
+                <Col xs={8}>xs={2}</Col>
+                <Col xs={8}>xs={2}</Col>
+                <Col xs={8}>xs={2}</Col>
+                <Col xs={8}>xs={2}</Col>
+                <Col xs={4}>xs={2}</Col>
+                <Col xs={4}>xs={2}</Col>
+                <Col xs={4}>xs={2}</Col>
+                <Col xs={4}>xs={2}</Col>
+                <Col xs={4}>xs={2}</Col>
+                <Col xs={4}>xs={2}</Col>
               </Row>
               </Grid>
           </div>
