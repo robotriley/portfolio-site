@@ -166,3 +166,11 @@
 .rs-carousel-slider-item {
   background-color: lightskyblue;
 }
+
+.rs-col {
+  font-size: larger;
+  padding: 10px;
+  margin: 10px;
+  background-color: blanchedalmond;
+  border-radius: 10px;
+}
