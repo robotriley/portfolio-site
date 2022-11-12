@@ -65,12 +65,12 @@ const App = () => {
           <div className="show-grid">
             <Grid fluid>
               <Row className="show-grid">
-                <Col xs={8}>xs={2}</Col>
-                <Col xs={8}>xs={2}</Col>
-                <Col xs={8}>xs={2}</Col>
-                <Col xs={8}>xs={2}</Col>
-                <Col xs={8}>xs={2}</Col>
-                <Col xs={8}>xs={2}</Col>
+                <Col xs={4}>JavaScript</Col>
+                <Col xs={4}>React</Col>
+                <Col xs={4}>HTML/CSS</Col>
+                <Col xs={4}>Ruby on Rails</Col>
+                <Col xs={4}>PostGreSQL</Col>
+                <Col xs={4}>Git / Github</Col>
                 <Col xs={4}>xs={2}</Col>
                 <Col xs={4}>xs={2}</Col>
                 <Col xs={4}>xs={2}</Col>
