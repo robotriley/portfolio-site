@@ -81,8 +81,8 @@ const App = () => {
               <Row gutter={16} className="show-grid">
                 <Col xs={4}>Git / Github</Col>
                 <Col xs={6}>RESTful APIs</Col>
-                <Col xs={6}>Object-Oriented Programming</Col>
-                <Col xs={4}>Version Control</Col>
+                <Col xs={10}>Object-Oriented Programming</Col>
+                <Col xs={6}>Version Control</Col>
               </Row>
                 <p className='techCategory'>Styles</p>
               <Row gutter={16} className="show-grid">
