@@ -37,6 +37,9 @@
 .navIcon {
   color: #282c34;
 }
+.navIcon:hover {
+  color: blanchedalmond;
+}
 
 #iconZone {
   margin-right: 50px;
