@@ -33,6 +33,14 @@ const App = () => {
     contactRef.current.scrollIntoView({ behavior: 'smooth' })
   }
 
+  const Mailto = ({ email, subject = '', body = '', children }) => {
+    let params = subject || body ? '?' : '';
+    if (subject) params += `subject=${encodeURIComponent(subject)}`;
+    if (body) params += `${subject ? '&' : ''}body=${encodeURIComponent(body)}`;
+
+    return <a href={`mailto:${email}${params}`}>{children}</a>;
+  };
+
   Title()
 
   return (
@@ -101,7 +109,12 @@ const App = () => {
       <div ref={contactRef} id='contactContent'>
         <div className='contentLit'>
         <h1 className='sectionHeader'>Contact</h1>
-        <Placeholder.Paragraph style={{ marginTop: 30 }} rows={5} graph="image" active />
+          
+          
+          <Mailto email="rileysoloner@gmail.com" subject="Nice Portfolio!" body="Riley,">
+            Mail me!
+          </Mailto>
+          
         </div>
       </div>
     </div>
