@@ -3,6 +3,7 @@ import './App.css';
 import { Placeholder, Grid, Row, Col } from 'rsuite'
 import NavbarComponent from './components/NavbarComponent.js';
 import CarouselComponent from './components/CarouselComponent';
+import About from './components/About';
 
 const Title = () => {
   useEffect(() => {
@@ -100,7 +101,7 @@ const App = () => {
       <div ref={aboutRef} id='aboutContent'>
         <div className='contentLit'>
         <h1 className='sectionHeader'>About</h1>
-          <p className='para'>I’ve been in acting, writing and producing live and televised comedy for ten years. I’m excited to combine my communication/writing skills with software engineering to help creative people make more and better art.</p>
+        <About />
         </div>
       </div>
       <div ref={contactRef} id='contactContent'>
