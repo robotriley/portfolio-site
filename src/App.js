@@ -103,7 +103,7 @@ const App = () => {
         <About />
         </div>
       </div>
-      <div ref={contactRef} id='sectionContent'>
+      <div ref={contactRef} id='contactContent'>
         <div className='contentLit'>
         <h1 className='sectionHeader'>Contact</h1>
           
