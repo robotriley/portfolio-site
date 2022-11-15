@@ -81,7 +81,7 @@
 .sectionHeader {
   align-items: flex-start;
   /* border: solid red; */
-  color: lightgoldenrodyellow;
+  color: blanchedalmond;
   display: flex;
   font-size: 10vh;
   line-height: 110px;
@@ -167,6 +167,8 @@
   background-color: lightskyblue;
 }
 
+/* ***** TECHNOLOGIES SECTION ***** */
+
 .rs-col {
   font-size: larger;
   font-weight: bolder;
@@ -180,13 +182,22 @@
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: larger;
   font-weight: 700;
-  align-content:flex-start;
-  align-items: flex-start;
-  justify-content: flex-start;
-  margin-right: 80%;
-  /* border: solid red; */
   color: lightslategray
 }
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  /* border: solid red; */
+  padding-top: 10px;
+}
+
+.show-grid {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ***** CONTACT SECTION ***** */
 
 a {
   transition-duration: 400ms;
@@ -203,6 +214,3 @@ a:hover {
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
-/* .emailMe:link {
-  text-decoration: none;
-} */
