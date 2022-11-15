@@ -197,6 +197,9 @@
   display: flex;
   flex-direction: column;
   align-content: center;
+  border: solid green;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 /* ***** CONTACT SECTION ***** */
