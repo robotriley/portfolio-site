@@ -10,7 +10,6 @@ const Title = () => {
     document.title = 'Riley Soloner';
   });
 }
-
 const App = () => {
   const welcomeRef = useRef()
   const projectsRef = useRef()
@@ -52,7 +51,7 @@ const App = () => {
                        handleAboutClick={handleAboutClick}
                        handleContactClick={handleContactClick}
        />
-      <div id='welcomeContent' ref={welcomeRef}>
+      <div id='sectionContent' ref={welcomeRef}>
         <div className='contentLit'>
           <h1 className='sectionHeader'>
            Welcome To My Portfolio!
@@ -60,7 +59,7 @@ const App = () => {
         <p className='para'>Extremely skilled and charismatic performer with a certificate from a coding bootcamp. I'm a full stack developer interested in using technology as a tool for creativity. </p>
         </div>
       </div>
-      <div id='projectsContent' ref={projectsRef}>
+      <div id='sectionContent' ref={projectsRef}>
         <div className='contentLit'>
         <h1 className='sectionHeader'>Projects</h1>
         <div id='caroDiv'>
@@ -68,7 +67,7 @@ const App = () => {
           </div>
         </div>
       </div>
-      <div ref={techRef} id='technologiesContent'>
+      <div ref={techRef} id='sectionContent'>
         <div className='contentLit'>
         <h1 className='sectionHeader'>Technologies</h1>
         <p className='para'>I've worked with...</p>
@@ -98,13 +97,13 @@ const App = () => {
           </div>
         </div>
       </div>
-      <div ref={aboutRef} id='aboutContent'>
+      <div ref={aboutRef} id='sectionContent'>
         <div className='contentLit'>
         <h1 className='sectionHeader'>About</h1>
         <About />
         </div>
       </div>
-      <div ref={contactRef} id='contactContent'>
+      <div ref={contactRef} id='sectionContent'>
         <div className='contentLit'>
         <h1 className='sectionHeader'>Contact</h1>
           

@@ -52,32 +52,12 @@
   align-items: center;
   justify-items: center;
   margin-right: 50px;
-  color: #F6E3C5
+  color: blanchedalmond;
 }
 
 /* ***** SECTION DIVS ***** */
 
-#welcomeContent {
-  height: 100vh;
-  background-color: #35858B;
-}
-
-#projectsContent {
-  height: 100vh;
-  background-color: #35858B;
-}
-
-#technologiesContent {
-  height: 100vh;
-  background-color: #4CACBC;
-}
-
-#aboutContent {
-  height: 100vh;
-  background-color: #4CACBC;
-}
-
-#contactContent {
+#sectionContent {
   height: 100vh;
   background-color: #4CACBC;
 }
