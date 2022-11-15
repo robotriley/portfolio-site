@@ -182,19 +182,21 @@
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: larger;
   font-weight: 700;
-  color: lightslategray
+  color: slateblue;
+  margin: 40px;
+  /* border: solid red; */
 }
 
 .grid {
   display: flex;
-  flex-direction: row;
-  /* border: solid red; */
-  padding-top: 10px;
+  flex-direction: row;;
+  border: solid red;
 }
 
 .show-grid {
   display: flex;
   flex-direction: column;
+  align-content: center;
 }
 
 /* ***** CONTACT SECTION ***** */

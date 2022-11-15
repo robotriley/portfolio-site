@@ -73,24 +73,24 @@ const App = () => {
         <p className='para'>I've worked with...</p>
           <div className="show-grid">
             <Grid className='grid' fluid>
-        <p className='techCategory'>Front-End</p>
               <Row gutter={8} className="show-grid">
+        <p className='techCategory'>Front-End</p>
                 <Col sm={40}>JavaScript</Col>
                 <Col sm={40}>React</Col>
                 <Col sm={40}>HTML</Col>
                 <Col sm={40}>CSS</Col>
                 </Row>
-              <p className='techCategory'>Back-End</p>
               <Row gutter={8} className="show-grid">
+              <p className='techCategory'>Back-End</p>
                 <Col xs={40}>Ruby on Rails</Col>
                 <Col xs={40}>SQL/PostGreSQL</Col>
                 </Row>
-              <p className='techCategory'>Platforms</p>
               <Row gutter={8} className="show-grid">
+              <p className='techCategory'>Platforms</p>
                 <Col xs={40}>Git / Github</Col>
               </Row>
-                <p className='techCategory'>Styles</p>
               <Row gutter={8} className="show-grid">
+                <p className='techCategory'>Styles</p>
                 <Col xs={0}>ReactSuite</Col>
               </Row>
               </Grid>
