@@ -112,7 +112,7 @@ const App = () => {
           
           
           <Mailto email="rileysoloner@gmail.com" subject="Nice Portfolio!" body="Riley,">
-            Mail me!
+            <h1 className='emailMe'>email me!</h1>
           </Mailto>
           
         </div>
