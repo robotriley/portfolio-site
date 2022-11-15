@@ -215,7 +215,7 @@ a {
 
 a:hover {
   transition-duration: 500;
-  color: slateblue;  
+  color: lightsteelblue;  
   text-decoration: none; 
   background-color: blanchedalmond;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
