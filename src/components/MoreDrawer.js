@@ -26,10 +26,16 @@ const MoreDrawer = () => {
           <div>
 
             <div className='drawerWords1'>
-              <h4>Hey! Thank you for clicking "more." I appreciate it. <br /> 
+              <p>Hey! Thank you for clicking "more." I appreciate it. <br /> <br /> 
               I'm going to level with you. I'm new to software engineering. I'm a "career shifter." <br />
-              I was quite successful in my last career, but finding and keeping jobs in entertainment is kind of like a lottery.
-              </h4>
+              I was quite successful in my last career, but finding and keeping jobs in entertainment is kind of like a lottery. <br />
+              My technical skills are growing rapidly as I navigate my post-bootcamp life. I'm a trainable, fast learning, dedicated guy. <br />
+              I'm also a creative, outgoing and kind human being interested in amplifying the human element in workplaces. <br />
+              I mobilized my bootcamp cohort so we could collectively demand better learning conditions. <br />
+              Come presentation day, my technology may not be the most advanced. But I'll be sure to present and communicate in a way that will make an impression. <br />
+              I naturally gravitate towards communicative leadership roles. 
+
+              </p>
             </div>
             
           </div>
