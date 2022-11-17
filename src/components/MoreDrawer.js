@@ -26,7 +26,10 @@ const MoreDrawer = () => {
           <div>
 
             <div className='drawerWords1'>
-              <p>Hey! Thank you for clicking "more." I appreciate it.</p>
+              <h4>Hey! Thank you for clicking "more." I appreciate it. <br /> 
+              I'm going to level with you. I'm new to software engineering. I'm a "career shifter." <br />
+              I was quite successful in my last career, but finding and keeping jobs in entertainment is kind of like a lottery.
+              </h4>
             </div>
             
           </div>
