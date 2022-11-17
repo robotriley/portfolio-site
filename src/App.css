@@ -216,7 +216,8 @@ a:hover {
 
 .rs-drawer-header {
   background-color: #4FBDBA;
-  color: #AEFEFF;
+  /* color: #AEFEFF; */
+  color: black;
 }
 .rs-drawer-body {
   background-color: #AEFEFF;
