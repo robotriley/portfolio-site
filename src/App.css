@@ -27,6 +27,12 @@
   backdrop-filter: blur(10px);
   /* border-bottom: 1px solid whitesmoke; */
 }
+.rs-navbar-item {
+  color: black;
+  /* border: solid white; */
+  border-radius: 40px 90px 40px 90px;
+}
+
 
 #navContent {
   margin-left: 50px;
