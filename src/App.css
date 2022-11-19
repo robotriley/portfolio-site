@@ -42,6 +42,7 @@
 
 .navIcon {
   color: #282c34;
+  border-radius: 40px 90px 40px 90px;
 }
 .navIcon:hover {
   color: blanchedalmond;
