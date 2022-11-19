@@ -50,7 +50,7 @@ const ReviewHaikuDrawer = () => {
 
       <Button
         appearance="link"
-        size='sm'
+        size='lg'
         color="red"
         onClick={() => handleOpen('bottom')}>About</Button>
     </div>
