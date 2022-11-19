@@ -10,7 +10,9 @@ const CarouselComponent = () => {
     <div>
       <Carousel className="custom-slider">
         <div className='carouselSlide'>
-          <h1>STORY OUTLINER <StoryOutlinerDrawer /></h1>
+          <h1>STORY OUTLINER </h1>
+          <h3>streamline your story writing process</h3>
+          <StoryOutlinerDrawer />
         </div>
         <div className='carouselSlide'>
           <h1>REVIEW HAIKUS <ReviewHaikuDrawer /></h1>
