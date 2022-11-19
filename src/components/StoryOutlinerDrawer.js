@@ -16,7 +16,7 @@ const StoryOutlinerDrawer = () => {
         placement={placement}
         open={open}
         keyboard={true}
-        size={'md'}
+        size={'lg'}
         onClose={() => setOpen(false)}>
         <Drawer.Header id="aboutHeader" >
           <h2>Story Outliner</h2>
@@ -24,9 +24,8 @@ const StoryOutlinerDrawer = () => {
         <Drawer.Body>
           <div>
             <div className='drawerWords1'>
-              <h4>Yo here's where some info about story outliner will go.</h4>
-            </div>
-            <div className='credits'>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/U5DdcyA72Y0?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div className='credits'>
                   <Button color="cyan"
                     appearance='ghost'
                     target="_blank"
@@ -34,13 +33,14 @@ const StoryOutlinerDrawer = () => {
                     <ion-icon name="logo-github"></ion-icon>
                     Github
                   </Button>
+              </div>
             </div>
           </div>
         </Drawer.Body>
       </Drawer>
       <Button
         appearance="link"
-        size='sm'
+        size='lg'
         color="red"
         onClick={() => handleOpen('bottom')}>About</Button>
     </div>
