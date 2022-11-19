@@ -222,3 +222,7 @@ a:hover {
 .rs-drawer-body {
   background-color: #AEFEFF;
 }
+
+.rs-drawer-header-close {
+  color: white;
+}
