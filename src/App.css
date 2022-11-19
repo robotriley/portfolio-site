@@ -132,7 +132,7 @@
   height: 500px;
   border-radius: 100px 100px 20px 20px;
   /* display: flex; */
-  /* background-color: white; */
+  background-color: #4FBDBA;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 .custom-slider h1 {
@@ -152,6 +152,7 @@
   align-items: center;
   justify-content: center;
   /* border: solid 1px blanchedalmond; */
+  /* background-color: #4CACBC; */
   border-radius: 100px 100px 20px 20px;
 }
 
