@@ -18,7 +18,9 @@ const CarouselComponent = () => {
           <h1>REVIEW HAIKUS <ReviewHaikuDrawer /></h1>
         </div>
         <div className='carouselSlide'>
-          <h1>TROLL SIMULATOR <TrollSimulatorDrawer /></h1>
+          <h1>TROLL SIMULATOR</h1>
+          <h3>choose your troll adventure</h3>
+          <TrollSimulatorDrawer />
         </div>
       </Carousel>
     </div>
