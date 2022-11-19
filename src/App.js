@@ -50,6 +50,7 @@ const App = () => {
            Welcome To My Portfolio!
           </h1>
         <p className='para'>Extremely skilled and charismatic performer with a certificate from a coding bootcamp. I'm a full stack developer interested in using technology as a tool for creativity. </p>
+        <MailToRiley />
         </div>
       </div>
       <div id='sectionContent' ref={projectsRef}>
