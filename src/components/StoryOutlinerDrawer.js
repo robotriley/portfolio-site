@@ -29,6 +29,7 @@ const StoryOutlinerDrawer = () => {
                   <Button color="cyan"
                     appearance='ghost'
                     target="_blank"
+                    size="lg"
                     href="https://github.com/robotriley/story-outliner">
                     <ion-icon name="logo-github"></ion-icon>
                     Github
