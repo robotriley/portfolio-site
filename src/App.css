@@ -208,11 +208,14 @@
 /* ***** CONTACT SECTION ***** */
 
 a {
+  display: flex;
+  flex-direction: row;
   transition-duration: 400ms;
   border-radius: 40px 90px 40px 90px;
-  border: solid red;
+  /* border: solid red; */
   padding: 10px;
   color: blanchedalmond;
+
 }
 
 a:hover {
