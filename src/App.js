@@ -4,6 +4,7 @@ import { Placeholder, Grid, Row, Col } from 'rsuite'
 import NavbarComponent from './components/NavbarComponent.js';
 import CarouselComponent from './components/CarouselComponent';
 import About from './components/About';
+import MailToRiley from './components/MailToRiley';
 
 const Title = () => {
   useEffect(() => {
@@ -32,14 +33,6 @@ const App = () => {
   const handleContactClick = () => {
     contactRef.current.scrollIntoView({ behavior: 'smooth' })
   }
-
-  const Mailto = ({ email, subject = '', body = '', children }) => {
-    let params = subject || body ? '?' : '';
-    if (subject) params += `subject=${encodeURIComponent(subject)}`;
-    if (body) params += `${subject ? '&' : ''}body=${encodeURIComponent(body)}`;
-
-    return <a target='_blank' href={`mailto:${email}${params}`}>{children}</a>;
-  };
 
   Title()
 
@@ -107,11 +100,7 @@ const App = () => {
         <div className='contentLit'>
         <h1 className='sectionHeader'>Contact</h1>
           
-          
-          <Mailto email="rileysoloner@gmail.com" subject="Nice Portfolio!" body="Riley,">
-            <h1 className='emailMe'>email me!</h1>
-          </Mailto>
-          
+          <MailToRiley />
         </div>
       </div>
     </div>
