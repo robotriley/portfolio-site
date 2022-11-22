@@ -8,7 +8,10 @@ import ReviewHaikuDrawer from './ReviewHaikuDrawer';
 const CarouselComponent = () => {
   return (
     <div>
-      <Carousel className="custom-slider">
+      <Carousel
+        className="custom-slider"
+        placement="bottom"
+        shape="bar">
         <div className='carouselSlide'>
           <h1>STORY OUTLINER </h1>
           <h3>streamline your story writing process</h3>
