@@ -15,7 +15,7 @@ const CarouselComponent = () => {
         <div className='carouselSlide'>
           <h1>STORY OUTLINER </h1>
           <h3>streamline your story writing process</h3>
-          <iframe width="500" height="281" src="https://www.youtube.com/embed/U5DdcyA72Y0?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="760" height="428" src="https://www.youtube.com/embed/U5DdcyA72Y0?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen='allowfullscreen'></iframe>
           {/* <StoryOutlinerDrawer /> */}
         </div>
         <div className='carouselSlide'>
@@ -24,7 +24,7 @@ const CarouselComponent = () => {
         <div className='carouselSlide'>
           <h1>TROLL SIMULATOR</h1>
           <h3>choose your troll adventure</h3>
-          <iframe width="500" height="281" src="https://www.youtube.com/embed/Y2jxvthfZIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Y2jxvthfZIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           {/* <TrollSimulatorDrawer /> */}
         </div>
       </Carousel>
