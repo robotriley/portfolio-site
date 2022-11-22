@@ -28,6 +28,13 @@ const CarouselComponent = () => {
         <div className='carouselSlide'>
           <h1>REVIEW HAIKUS</h1>
           <h3>A fun website where <br /> All of the movie reviews <br />are haiku poems</h3>
+          <Button color="blue"
+            appearance='primary'
+            target="_blank"
+            href="https://github.com/robotriley/review-haiku-backend">
+            <ion-icon name="logo-github"></ion-icon>
+            Github
+          </Button>
         </div>
         <div className='carouselSlide'>
           <h1>TROLL SIMULATOR</h1>
