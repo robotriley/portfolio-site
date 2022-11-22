@@ -24,7 +24,7 @@ const CarouselComponent = () => {
         <div className='carouselSlide'>
           <h1>TROLL SIMULATOR</h1>
           <h3>choose your troll adventure</h3>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/Y2jxvthfZIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="760" height="428" src="https://www.youtube.com/embed/Y2jxvthfZIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen='allowfullscreen'></iframe>
           {/* <TrollSimulatorDrawer /> */}
         </div>
       </Carousel>
