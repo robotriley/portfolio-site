@@ -168,6 +168,7 @@
   /* border: solid 1px blanchedalmond; */
   /* background-color: #4CACBC; */
   border-radius: 100px 100px 20px 20px;
+  padding-bottom: 10px;
 }
 
 .rs-carousel-slider-item {
@@ -183,6 +184,13 @@
 .rs-carousel-label:hover {
   /* border: solid #4CACBC 1px; */
   background-color: #4CACBC;
+}
+
+.rs-btn:hover {
+  /* border-bottom: solid red; */
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.24), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+  background-color: #AEFEFF;
+  color: black;
 }
 
 .drawerWords1 {
