@@ -27,7 +27,7 @@ const MoreDrawer = () => {
             <div className='drawerWords1'>
               <h5>Hey! Thank you for clicking "more." I appreciate it. <br /> <br /> 
               Can I be real? I'm a new software engineer (obviously). I'm a career shifter. <br />
-              I was successful in my entertainment career, but finding and keeping jobs in that field is a bit too much like a lottery. <br /><br />
+              I was successful in my entertainment career, but finding and keeping jobs in that field is like a lottery. <br /><br />
               My technical skills are growing rapidly as I navigate my post-bootcamp life. I'm a trainable, fast learning, dedicated guy. <br />
               I value and prioritize creative, outgoing and kind human interaction. I seek out and appreciate the human element in workplaces. <br /><br />
               Through no conscious effort, I naturally fell into a role on campus as someone with whom my classmates could have a sincere, encouraging conversation.<br /><br />
