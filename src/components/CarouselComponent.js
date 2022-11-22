@@ -26,7 +26,8 @@ const CarouselComponent = () => {
           </Button>
         </div>
         <div className='carouselSlide'>
-          <h1>REVIEW HAIKUS <ReviewHaikuDrawer /></h1>
+          <h1>REVIEW HAIKUS</h1>
+          <h3>A fun website where <br /> All of the movie reviews <br />are haiku poems</h3>
         </div>
         <div className='carouselSlide'>
           <h1>TROLL SIMULATOR</h1>
