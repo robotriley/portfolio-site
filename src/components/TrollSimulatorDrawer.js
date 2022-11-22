@@ -24,10 +24,9 @@ const TrollSimulatorDrawer = () => {
         </Drawer.Header>
         <Drawer.Body>
           <div>
-
             <div className='drawerWords1'>
               <iframe width="560" height="315" src="https://www.youtube.com/embed/Y2jxvthfZIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <div className='credits'>
+             <div className='credits'>
                   <Button color="cyan"
                     appearance='ghost'
                     target="_blank"
@@ -35,7 +34,7 @@ const TrollSimulatorDrawer = () => {
                     <ion-icon name="logo-github"></ion-icon>
                     Github
                   </Button>
-                      </div>
+              </div>
             </div>
           </div>
         </Drawer.Body>
