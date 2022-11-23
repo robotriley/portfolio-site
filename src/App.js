@@ -50,7 +50,7 @@ const App = () => {
           <h1 className='sectionHeader'>
            Welcome To My Portfolio!
           </h1>
-        <p className='para'>Extremely skilled and charismatic performer with a certificate from a coding bootcamp. I'm a full stack developer interested in using technology as a tool for creativity. </p>
+        <p className='para'>Skilled and charismatic performer with a certificate from a coding bootcamp. I'm a full stack developer interested in using technology as a tool for creativity. </p>
         <MailToRiley />
         </div>
       </div>
@@ -72,10 +72,7 @@ const App = () => {
         </div>
       </div>
       <div ref={aboutRef} id='sectionContent'>
-        <div className='contentLit'>
-        <h1 className='sectionHeader'>About</h1>
         <About />
-        </div>
       </div>
       <div ref={contactRef} id='contactContent'>
         <div className='contentLit'>
