@@ -63,21 +63,14 @@ const App = () => {
         </div>
       </div>
       <div ref={techRef} id='sectionContent'>
-        <div className='contentLit'>
-        <h1 className='sectionHeader'>Technologies</h1>
-        <p className='para'>I've worked with...</p>
-          <div className="show-grid">
-              <GridComponent />
-          </div>
-        </div>
+          <GridComponent />
       </div>
       <div ref={aboutRef} id='sectionContent'>
-        <About />
+          <About />
       </div>
       <div ref={contactRef} id='contactContent'>
         <div className='contentLit'>
         <h1 className='sectionHeader'>Contact</h1>
-          
           <MailToRiley />
         </div>
       </div>
