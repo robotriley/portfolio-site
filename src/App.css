@@ -167,6 +167,10 @@
   background-color: #4CACBC;
 }
 
+.rs-btn {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .rs-btn:hover {
   /* border-bottom: solid red; */
   box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.24), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
