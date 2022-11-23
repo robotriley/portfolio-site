@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from 'react';
 import './App.css';
-import { Grid, Row, Col } from 'rsuite'
 import NavbarComponent from './components/NavbarComponent.js';
 import CarouselComponent from './components/CarouselComponent';
 import About from './components/About';
