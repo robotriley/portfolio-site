@@ -31,7 +31,7 @@ const MoreDrawer = () => {
               My technical skills are growing rapidly as I navigate my post-bootcamp life. I'm a trainable, fast learning, dedicated guy. <br />
               I value and prioritize creative, outgoing and kind human interaction. I seek out and appreciate the human element in workplaces. <br /><br />
               Through no conscious effort, I naturally fell into a role on campus as someone with whom my classmates could have a sincere, encouraging conversation.<br /><br />
-              When our bootcam's cost-saving, corner cutting tactics felt like a total rug-pull on the student body, I mobilized my cohort so we could collectively demand (and successfully receive) better learning conditions. <br /><br />
+              When our bootcamp's cost-saving, corner cutting tactics felt like a total rug-pull on the student body, I mobilized my cohort so we could collectively demand (and successfully receive) better learning conditions. <br /><br />
               I present, communicate and connect in a way that will make an impression. <br />
               Thank you for reading.
                 <br /><br />
