@@ -18,17 +18,11 @@ const ResumeDrawer = () => {
         keyboard={true}
         size={'lg'}
         onClose={() => setOpen(false)}>
-        <Drawer.Header id="aboutHeader" >
-          <h2>More About Riley</h2>
-        </Drawer.Header>
         <Drawer.Body>
           <div>
 
             <div className='drawerWords1'>
-              <h5>Resume
-                <br /><br />
-                Riley 
-              </h5>
+              <h5>Resume</h5>
             </div>
             
           </div>
