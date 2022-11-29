@@ -26,17 +26,6 @@ const CarouselComponent = () => {
           </Button>
         </div>
         <div className='carouselSlide'>
-          <h1>REVIEW HAIKUS</h1>
-          <h3>A fun website where <br /> All of the movie reviews <br />are haiku poems</h3>
-          <Button color="blue"
-            appearance='primary'
-            target="_blank"
-            href="https://github.com/robotriley/review-haiku-backend">
-            <ion-icon name="logo-github"></ion-icon>
-            Github
-          </Button>
-        </div>
-        <div className='carouselSlide'>
           <h1>TROLL SIMULATOR</h1>
           <h3>choose your troll adventure</h3>
           <iframe width="560" height="428" src="https://www.youtube.com/embed/Y2jxvthfZIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen='allowfullscreen'></iframe>
@@ -45,6 +34,17 @@ const CarouselComponent = () => {
                   size='lg'
                   target="_blank"
                   href="https://github.com/robotriley/troll-builder">
+            <ion-icon name="logo-github"></ion-icon>
+            Github
+          </Button>
+        </div>
+        <div className='carouselSlide'>
+          <h1>REVIEW HAIKUS</h1>
+          <h3>A fun website where <br /> All of the movie reviews <br />are haiku poems</h3>
+          <Button color="blue"
+            appearance='primary'
+            target="_blank"
+            href="https://github.com/robotriley/review-haiku-backend">
             <ion-icon name="logo-github"></ion-icon>
             Github
           </Button>
