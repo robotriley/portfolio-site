@@ -17,6 +17,15 @@ const NavbarComponent = ({handleWelcomeClick, handleProjectsClick, handleTechCli
         </div>
         <Nav pullRight id="iconZone">
           <Button className='navIcon'
+            appearance='link'
+            href='Riley_Soloner_Resume_Shared.pdf'
+            target='blank'>
+            <ion-icon className="ionIcon"
+              name='document-text-sharp'
+              size='large'>
+            </ion-icon>
+          </Button>
+          <Button className='navIcon'
                   appearance="link"
                   href="https://github.com/robotriley/"
                   target='blank' >
@@ -41,15 +50,6 @@ const NavbarComponent = ({handleWelcomeClick, handleProjectsClick, handleTechCli
             <ion-icon className="ionIcon"
                       name="logo-medium"
                       size="large">
-            </ion-icon>
-          </Button>
-          <Button className='navIcon'
-                  appearance='link'
-            href='Riley_Soloner_Resume_Shared.pdf'
-                  target='blank'>
-            <ion-icon className="ionIcon"
-                      name='document-text-sharp'
-                      size='large'>
             </ion-icon>
           </Button>
         </Nav>
