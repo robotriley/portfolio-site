@@ -43,7 +43,7 @@ const NavbarComponent = ({handleWelcomeClick, handleProjectsClick, handleTechCli
                       size="large">
             </ion-icon>
           </Button>
-          <Button classname='navIcon'
+          <Button className='navIcon'
                   appearance='link'
                   target='blank'>
             <ion-icon className="ionIcon"
