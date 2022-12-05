@@ -43,6 +43,14 @@ const NavbarComponent = ({handleWelcomeClick, handleProjectsClick, handleTechCli
                       size="large">
             </ion-icon>
           </Button>
+          <Button classname='navIcon'
+                  appearance='link'
+                  target='blank'>
+            <ion-icon className="ionIcon"
+                      name='document-text-outline'
+                      size='large'>
+            </ion-icon>
+          </Button>
         </Nav>
       </Navbar>
     </div>
