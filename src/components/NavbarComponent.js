@@ -45,6 +45,7 @@ const NavbarComponent = ({handleWelcomeClick, handleProjectsClick, handleTechCli
           </Button>
           <Button className='navIcon'
                   appearance='link'
+            href='Riley_Soloner_Resume_Shared.pdf'
                   target='blank'>
             <ion-icon className="ionIcon"
                       name='document-text-outline'
